@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img{
+    max-width:288px;
+    height: 288px
+}
+
+.css-46bh2p-MuiCardContent-root:last-child{
+    padding-bottom: 0px  !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input{
+    padding: 0px 99px 0px 0px !important;
+    outline: none !important;
+    border: none !important;
+}
+@media screen and (min-width:768px) and (max-width: 1023px){
+    .css-1ij2ngx {
+       
+        width: 70% !important;
+    }
+}
+.css-xn6ruc {
+    flex-direction: column  !important;
+    justify-content: center !important;
+    display: flex !important;
+
+}
+
+.css-1wugmvq{
+ 
+    padding-left: 30px !important;
+}
+
+
+
+
+ @media screen and (max-width:375px) {
+    .css-1wugmvq{
+       
+        padding-left: 10px !important;
+    }   
+    
+
+ }

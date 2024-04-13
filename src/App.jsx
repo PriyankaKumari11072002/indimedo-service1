@@ -19,6 +19,7 @@ const ProductCardDetails = React.lazy(() => import("./screens/productCardDetails
 const Cart = React.lazy(() => import("./screens/Cart/Cart"));
 import { useAddToCart } from "./utils/common";
 import Offers from "./components/offers/offers";
+import Search1 from "./components/search/Search";
 // const Cart1 = React.lazy(() => import("./screens/Cart/cart1"));
 export default function App() {
 
@@ -34,7 +35,9 @@ export default function App() {
   <div style={{ width: '100%' }}>
     {/* Content */}
     {/* <ResponsiveProductCardDetail/> */}
+
     <Example1/>
+    <Search1/>
   </div>
   <div style={{ width: '87%',margin:'0 auto'  }}>
     <Suspense fallback={<Loading/>}>

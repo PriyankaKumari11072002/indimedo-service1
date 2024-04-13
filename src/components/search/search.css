@@ -118,3 +118,14 @@
   -webkit-line-clamp: 2;
   max-height: 3em;
 }
+
+@media screen and (max-width:480px){
+  .search-container {
+ 
+    margin-left: 80px;
+  background-color: aqua;
+   
+  }
+  
+  
+}

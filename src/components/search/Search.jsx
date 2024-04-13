@@ -60,7 +60,7 @@ if(searchTermSelector.trim() !== ""){
 
   dispatch(setSearchTerm1(""))
   setsuggestionTitleId("")
-
+  setInputClick(false)
 
 
   };
@@ -74,7 +74,8 @@ if(e.key==='Enter'){
   showSearchMessage(false)
 }
   }
-console.log(showSearchMessage,'showmESS')
+console.log(inputClick,'inputClick')
+
   return (
     <>
     {/* <Paper component="form"   style={{width:'500px',display:'flex',justifyContent:'space-between'}} onSubmit={handleSubmit}  sx={{borderRadius:20,border:"1px solid #e3e3e3",pl:2,boxShadow:"none",mr:{sm:5} }}>
@@ -109,7 +110,7 @@ console.log(showSearchMessage,'showmESS')
 
           <div key={item._id} className="suggestion" onClick={() => handleClick(item)}>
             
-              <h1>{item.title}</h1>
+              <h1  >{item.title}</h1>
               </div>
             {/* {item.tags.map((tags)=>(
               <div key={item._id} className="suggestion" onClick={() => handleClick(item)}>

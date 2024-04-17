@@ -3,7 +3,6 @@ import { apiSlice } from "./apiSlice";
 
 const token =
 "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZjNmODFlMTRmMTQzNDZhMDcxNDcwYyIsImlhdCI6MTcxMzMyOTg5NywiZXhwIjoxNzEzNTg5MDk3fQ.tuudQC-kF8bdi-8vasaQ5WnSjBNQp4I_EvKnTRXH4pI"
-
 export const productApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     

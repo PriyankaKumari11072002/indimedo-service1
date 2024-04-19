@@ -20,6 +20,11 @@ const Cart = React.lazy(() => import("./screens/Cart/Cart"));
 import { useAddToCart } from "./utils/common";
 import Offers from "./components/offers/offers";
 import Search1 from "./components/search/Search";
+import Radio from "./common/radio";
+import City from "./common/city";
+
+
+
 // const Cart1 = React.lazy(() => import("./screens/Cart/cart1"));
 export default function App() {
 
@@ -33,11 +38,16 @@ export default function App() {
       {/* className="overscroll-y-auto  overscroll-x-none "  ,display:'felx',justifyContent:'center',alignItems:"center",flexDirection:'column' */}
       <div style={{ width: '100%', height: '100vh',overflowX:'hidden' }} >
   <div style={{ width: '100%' }}>
+
     {/* Content */}
     {/* <ResponsiveProductCardDetail/> */}
 
     <Example1/>
     <Search1/>
+
+    {/* <City/> */}
+    {/* <Radio/> */}
+    
   </div>
   <div style={{ width: '87%',margin:'0 auto'  }}>
     <Suspense fallback={<Loading/>}>

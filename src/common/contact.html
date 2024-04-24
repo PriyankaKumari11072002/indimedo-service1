@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  
+</head>
+<body>
+  <form id="contact-form">
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+    <label for="subject">Subject:</label><br>
+    <input type="text" id="subject" name="subject" required><br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" required></textarea><br>
+    <button type="submit">Send Email</button>
+  </form>
+
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      var email = document.getElementById('email').value;
+      var subject = document.getElementById('subject').value;
+      var message = document.getElementById('message').value;
+
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "priyanka45803kumari@gmail.com", 
+        Password: "C56155809D72D4E915EC655428BD5689FD68", 
+        To: "priyankacoder11@gmail.com", 
+        From: "priyanka45803kumari@gmail.com",
+        Subject: subject,
+        Body: message
+      }).then(
+        function(message) {
+          alert("Email sent successfully!");
+          console.log(message)
+        }
+      );
+    });
+  </script>
+</body>
+</html>

@@ -22,6 +22,7 @@ import Offers from "./components/offers/offers";
 import Search1 from "./components/search/Search";
 import Radio from "./common/radio";
 import City from "./common/city";
+import UseMemo from "./common/UseMemo";
 
 
 
@@ -41,7 +42,7 @@ export default function App() {
 
     {/* Content */}
     {/* <ResponsiveProductCardDetail/> */}
-
+<UseMemo/>
     <Example1/>
     <Search1/>
 

@@ -1,0 +1,12 @@
+
+.dot ness function ..azure function
+
+AXIOS :  AXIOS is A external library where it got some ready  . function (delete,post,patch ) 
+//maintain simple principle rule using custom hooks , performance optimization and less line of cord , enchance code efiiciency  
+
+//use ref : create mutable variable which will not re-render ,directly acceess dom .
+//use context : we store the state in single store through entire application . we can use the same state in multiple pages . use contect solve the proplem of prop drilling .
+// we dont need to pass data parent to child due to context.
+
+
+

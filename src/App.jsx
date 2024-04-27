@@ -42,7 +42,7 @@ export default function App() {
 
     {/* Content */}
     {/* <ResponsiveProductCardDetail/> */}
-<UseMemo/>
+{/* <UseMemo/> */}
     <Example1/>
     <Search1/>
 
@@ -56,8 +56,9 @@ export default function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/product" element={<ProductCard />} />
         <Route path="/product/:id" element={<ProductCardDetails />} />
-        <Route path="/offers" element={<Offers/>} />
+        {/* <Route path="/offers" element={<Offers/>} /> */}
         <Route path="/cart" element={<Cart />} />
+        
         <Route path="/search-results/:id" element={<SearchResults />} />
       </Routes>
     </Suspense>

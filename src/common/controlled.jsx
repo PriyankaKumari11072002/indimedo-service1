@@ -3,6 +3,7 @@ import React from 'react'
 //here dom is controling the field state.dont have events and callback func to trigger updated value of input fileds 
 
 //controlled component : form data are handled and controlled by react state ,have events and callback function 
+
 const Controlled = () => {
 
 

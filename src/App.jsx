@@ -51,12 +51,13 @@ export default function App() {
     
   </div>
   <div style={{ width: '87%',margin:'0 auto'  }}>
+    hello i am priyanka
     <Suspense fallback={<Loading/>}>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/product" element={<ProductCard />} />
         <Route path="/product/:id" element={<ProductCardDetails />} />
-        {/* <Route path="/offers" element={<Offers/>} /> */}
+       
         <Route path="/cart" element={<Cart />} />
         
         <Route path="/search-results/:id" element={<SearchResults />} />

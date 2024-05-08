@@ -51,7 +51,7 @@ export default function App() {
     
   </div>
   <div style={{ width: '87%',margin:'0 auto'  }}>
-    hello i am priyanka
+ 
     <Suspense fallback={<Loading/>}>
       <Routes>
         <Route path="/" element={<Home/>} />

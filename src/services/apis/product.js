@@ -2,7 +2,8 @@ import { PRODUCT } from "../../utils/apiRoutes/product";
 import { apiSlice } from "./apiSlice";
 
 const token =
-"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZjNmODFlMTRmMTQzNDZhMDcxNDcwYyIsImlhdCI6MTcxMzMyOTg5NywiZXhwIjoxNzEzNTg5MDk3fQ.tuudQC-kF8bdi-8vasaQ5WnSjBNQp4I_EvKnTRXH4pI"
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ZjNmODFlMTRmMTQzNDZhMDcxNDcwYyIsImlhdCI6MTcxNTE2NTQ0MSwiZXhwIjoxNzE1NDI0NjQxfQ.l0-cNP5MoRdcUFZHTJzYgQGgn3WjYhLdKx0ZFSNcTEk"
+
 export const productApi = apiSlice.injectEndpoints({
   endpoints: (builder) => ({
     

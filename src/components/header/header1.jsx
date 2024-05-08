@@ -99,7 +99,7 @@ const Header1 = () => {
           </div>
 
           <div className="flex justify-around items-center gap-3 mr-4  ">
-            <div className="">
+{/*             <div className="">
               <Link
                 to="/special-offers"
                 className=" sm:text-black sm:font-semibold  sm:flex  Offers sm:justify-around sm:items-center sm:g-3"
@@ -107,7 +107,7 @@ const Header1 = () => {
                 <BiSolidOffer className="" />
                 Offers
               </Link>
-            </div>
+            </div> */}
             <div className="text-black font-semibold flex  justify-around items-center g-3">
               <Link to="/cart">
                 <IconButton aria-label="cart">

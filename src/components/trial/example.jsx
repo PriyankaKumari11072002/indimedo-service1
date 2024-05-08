@@ -424,7 +424,7 @@ export default function Example1() {
 
               <div className=" ml-auto items-center   hidden md:flex ">
                 {/* <div  className="  ">    </div>  */}
-                <div className="lg:ml-8 lg:flex  ">
+{/*                 <div className="lg:ml-8 lg:flex  ">
                   <Link
                     to="/offers"
                     className="flex items-center text-gray-700 hover:text-gray-800"
@@ -436,7 +436,7 @@ export default function Example1() {
                     </span>
                     <span className="sr-only">, change currency</span>
                   </Link>
-                </div>
+                </div> */}
 
                 <div className="lg:ml-8 lg:flex  ">
                   <Link
